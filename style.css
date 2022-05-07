@@ -1,0 +1,47 @@
+.p-5 {
+    margin-top: 12.5vh;
+} 
+
+.navbar {
+    height: 7.5vh;
+}
+
+.mask {
+    color: white;
+    text-align: left;
+    margin-top:180px;
+}
+
+.contactInfo {
+    height: 5vh;
+    color: #fff;
+    padding: 1vh;
+}
+
+.services{
+    background-color:rgba(255, 255, 255, 0.125);
+}
+
+.services-icon{
+    color:rgb(166, 216, 29);
+}
+section{
+    padding:20px;
+}
+.service-section{
+    background-color:#fff;
+    padding:10px;
+}
+
+.section-subheading-description{
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px ) {
+    .p-5 {
+        margin-top: 7.5vh;
+    }
+    .contactInfo {
+        display:none !important;
+    }
+}
